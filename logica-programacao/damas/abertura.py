@@ -1,0 +1,20 @@
+import time
+def abertura():
+    print("*********************************************************")
+    print("Iniciando o jogo de damas...")
+    print("*********************************************************\n")
+    jogador_um= input("Digite o nome do jogador de peças brancas: ")
+    jogador_dois = input("Digite o nome do jogador de peças pretas: ")
+    print()
+    print(f"Bem-vindo, {jogador_um} e {jogador_dois}")
+    print()
+    time.sleep(3)
+    print(f"{jogador_um} jogará com as peças brancas (○ e △).")
+    time.sleep(3)
+    print()
+    print(f"{jogador_dois} jogará com as peças pretas (● e ▲).")
+    time.sleep(3)
+    print()
+    print("Boa sorte !!!\n")
+    
+abertura()
